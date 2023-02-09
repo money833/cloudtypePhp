@@ -11,7 +11,7 @@
     
     // http://local-api.wbcm.co.kr/membership/membershipGradeInfoList?USERID=money833n&SPT_LVL=ILNS13100001&CUL_LVL=ILAC14020001&SPT_STATUS_CD=200&CUL_STATUS_CD=200&ML_MEMKIND_CD=EMP&ML_GUBUN_CD=NOR&IC_CARD_GUBUN_CD=CUL
 
-    
+    print($servername);exit;
     $USERID = (isset($_GET["USERID"]) && $_GET["USERID"] != "") ? $_GET["USERID"] : "";
     $SPT_LVL = (isset($_GET["SPT_LVL"]) && $_GET["SPT_LVL"] != "") ? $_GET["SPT_LVL"] : "";
     $CUL_LVL = (isset($_GET["CUL_LVL"]) && $_GET["CUL_LVL"] != "") ? $_GET["CUL_LVL"] : "";
@@ -26,7 +26,7 @@
     
     // Create Connection
     $conn = new mysqli($servername, $username, $password, $dbname);
-print($conn);exit;
+
     // Check Connection
     if($conn->connect_error){
         die("Connection Failed: " . $conn->connect_error);

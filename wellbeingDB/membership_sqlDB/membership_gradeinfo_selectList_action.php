@@ -1,5 +1,5 @@
 <?php
-	
+	echo "Test";exit;
     $servername = "127.0.0.1";
     $username = "swc4th";
     $password = "swc4ck!@#$";

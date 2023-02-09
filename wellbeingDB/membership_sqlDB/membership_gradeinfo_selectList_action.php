@@ -1,8 +1,9 @@
 <?php
-	echo "Test";exit;
-    $servername = "127.0.0.1";
+	
+    $servername = "db-4jmpf.pub-cdb.ntruss.com";
     $username = "swc4th";
-    $password = "swc4ck!@#$";
+//     $password = "swc4ck!@#$";
+    $password = "swc4ck!@#";
     $dbname = "swc_base";
 //     $table = "Employees"; // lets create a table named Employees.
  

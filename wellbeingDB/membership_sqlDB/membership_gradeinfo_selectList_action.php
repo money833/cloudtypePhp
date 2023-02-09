@@ -10,7 +10,8 @@
     // we will get actions from the app to do operations in the database...
     
     // http://local-api.wbcm.co.kr/membership/membershipGradeInfoList?USERID=money833n&SPT_LVL=ILNS13100001&CUL_LVL=ILAC14020001&SPT_STATUS_CD=200&CUL_STATUS_CD=200&ML_MEMKIND_CD=EMP&ML_GUBUN_CD=NOR&IC_CARD_GUBUN_CD=CUL
-
+$conn = new mysqli($servername, $username, $password, $dbname);
+print($conn);exit;
     
     $USERID = (isset($_GET["USERID"]) && $_GET["USERID"] != "") ? $_GET["USERID"] : "";
     $SPT_LVL = (isset($_GET["SPT_LVL"]) && $_GET["SPT_LVL"] != "") ? $_GET["SPT_LVL"] : "";

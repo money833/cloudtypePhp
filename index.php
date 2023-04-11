@@ -1,7 +1,7 @@
 <? 
 $host = 'svc.sel3.cloudtype.app:30360';
-$user = 'swc4ch';
-$password = 'sbc4ck!@#$';
+$user = 'root';
+$password = '1111';
 $database = 'swc_base';
 
 $conn = mysqli_connect($host, $user, $password, $database);

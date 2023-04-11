@@ -1,5 +1,5 @@
 <? 
-$host = 'db-4jmpf.pub-cdb.ntruss.com:3306';
+$host = '222.106.194.95:33060';
 $user = 'swc4th';
 $password = 'swc4ck!@#';
 
